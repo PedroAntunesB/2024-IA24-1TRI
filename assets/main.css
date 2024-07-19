@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 50px;
+  background-repeat: round;
+  background-size: contain;
+  background-image: url(https://t4.ftcdn.net/jpg/03/01/86/97/240_F_301869761_74uqA1YkvLZp1ODYyhouMcCuyOnrb6SZ.jpg)
+}
+
+header {
+  height: 10vh;
+  background-color: rgb(41, 66, 106);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  border: 2px solid black;
+}
+
+
+nav.perfil {
+  border: 0.7vw inset gray;
+  width: 15vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  background-color: white;
+  font-size: medium;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+  border: 3px ridge gray;
+  border-radius: 10%;
+  margin-top: -50px;
+}
+
+main {
+  border: 10px groove gray;
+  width: 70vw;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px black;
+}
+
+.linha1 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: large;
+  padding: 2px;
+  width: 90%;
+}
+
+.linha1 img {
+  padding-top: 20px;
+  display: flex;
+}
+
+.paragrafo2 {
+  font-size: large;
+  padding: 10px;
+  width: 90%;
+
+}
+
+.paragrafo3 {
+  font-size: large;
+  padding: 10px;
+  width: 90%;
+}
+
+.meu-botao {
+  justify-content: center;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #212223;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.video {
+  border: 2px dotted black;
+  padding: 5px;
+  width: 500px;
+}
+
+.linha1 h2 {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.voleibol-feminino {
+  width: 90%;
+  height: 300px;
+}
+
+.volei-linha-do-tempo {
+  width: 100%;
+  height: 300px;
+}
+
+.primeiro-jogo {
+  width: 50%;
+  height: 200px;
+}
+
+.william_img {
+  width: 500px;
+  height: 300px;
+}
